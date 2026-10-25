@@ -1,0 +1,253 @@
+h1#Maria{
+    font-size:150px;
+    text-align:center;
+    position:absolute;
+    left:50%;
+    top:-5%;
+    transform:translateX(-50%);
+    width:fit-content;
+    cursor:default;
+    z-index:10;
+    -webkit-text-stroke: 1px rgb(172, 174, 202);
+}
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+#Maria{
+    color:rgb(8, 8, 61);
+    letter-spacing:4px;
+}
+img#MariaTitlu{
+    position:absolute;
+    z-index:0;
+    top:-10vh;
+    left:-26vh;
+    height:110%;
+}
+img#RaresTitlu{
+    position:absolute;
+    position:absolute;
+    z-index:0;
+    top:-80vh;
+    left:100vh;
+    height:180%;
+}
+img#Arrow1{
+    position:absolute;
+    height:20%;
+    left:52%;
+    top:55vh;
+    transform:rotateZ(-20deg)
+}
+img#Arrow2{
+    position:absolute;
+    height:20%;
+    left:37%;
+    top:55vh;
+    transform:scaleX(-1) rotateZ(-20deg);
+}
+body{
+    background: linear-gradient(to top, rgb(53, 5, 5), rgb(133, 12, 12));
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height:1000px;
+    width:screen;
+    overflow-x:hidden;
+}
+div.menu{
+    font-family: sans-serif;
+    font-size: 50px;
+    text-shadow: 0px 10px 20px rgb(17, 17, 17), 10px 20px 40px rgb(61, 61, 61);
+    display:block;
+
+    width:fit-content;
+    margin:auto;
+
+    a{
+    color:aliceblue;
+    text-decoration:none;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-shadow: 0px 10px 20px rgb(17, 17, 17), 10px 20px 40px rgb(61, 61, 61);
+    display:block;
+    height:fit-content;
+    width:fit-content;
+    }
+}
+p#joc{
+    transition: transform 0.3s ease;
+    position:absolute;
+
+        color:white;
+        -webkit-text-stroke: 4px rgb(255, 14, 5);
+        opacity:1;
+        font-family:Impact;
+        font-size:80px;
+    bottom:-80vh;
+    right:10vh;
+    width:fit-content;
+    z-index:10;
+}
+div.fire:hover {
+    transform: translateY(-10px);
+    z-index:99;
+}
+div.fire {
+    position: absolute;
+    transition: transform 0.3s ease;
+    bottom: 0vh;
+    left: 0vh;
+}
+
+p#cd {
+    position: absolute;
+    font-size: 60px;
+    bottom: -85vh;
+    left: 20vh;
+    width:0px;
+    z-index: 100;
+    color:black;
+}
+
+img#fire {
+    position: absolute;
+    bottom: -80vh;
+    left: 10vh;
+    z-index: 1;
+    height:240px;
+    width:500px;
+    opacity:1;
+}
+img#case1{
+    z-index:2;
+    height:200px;
+    position:absolute;
+    bottom:-95vh;
+    left:0vh;
+    transform:rotateZ(20deg);
+    cursor:pointer;
+}
+img#case2{
+    z-index:2;
+    height:200px;
+    position:absolute;
+    bottom:-95vh;
+    left:45vh;
+    transform:rotateZ(-20deg);
+    cursor:pointer;
+}
+img#case3{
+    z-index:2;
+    height:200px;
+    position:absolute;
+    bottom:-100vh;
+    left:20vh;
+}
+p#joc:hover{
+    transform:translateY(-10px);
+}
+div.s2{
+    z-index:1;
+    min-height: 102vh;
+    max-height: 102vh;
+    margin-top:62vh;
+    background-color: rgb(41, 4, 4);
+}
+img#sticker2{
+    height:800px;
+    position:absolute;
+    z-index:1;
+    left:0vh;
+}
+img#sticker3{
+    height:800px;
+    position:absolute;
+    right:0vh;
+    bottom:-72vh;
+    z-index:1;
+}
+img#sticker4{
+    height:800px;
+    position:absolute;
+    right:0vh;
+    bottom:-105vh;
+    z-index:1;
+}
+img#sticker5{
+    height:1300px;
+    position:absolute;
+    right:30vh;
+    bottom:-120vh;
+    z-index:1;
+}
+img#sticker6{
+    height:500px;
+    z-index:1;
+    position:absolute;
+    right:30vh;
+    bottom:-90vh;
+    transform:rotateZ(-10deg)
+}
+img#scrolldown{
+    height:600px;
+    top:75vh;
+    cursor:pointer;
+    position:absolute;
+}
+p#starttext{
+    color:black;
+    font-size:70px;
+    outline-color:white;
+    outline-offset:1px;
+    outline-width:2px;
+    top:30%;
+    left:44%;
+    width:220px;
+    text-align:center;
+    position:absolute;
+    cursor:pointer;
+    text-shadow:0px 0px 5px rgb(43, 3, 3);
+}
+p#yeah{
+     color:black;
+     -webkit-text-stroke: 1px white;
+     font-size:50px;
+     text-align:center;
+     position:absolute;
+     left:45%;
+     top:50vh;
+     visibility: hidden;
+}
+div.scroll{
+    width:60px;
+    height:100px;
+    img{
+    object-fit: cover;
+    object-position: center;
+    }
+}
+h1#months6{
+    position:absolute;
+    font-size:120px;
+    text-align:center;
+    left:35vh;
+    bottom:-125vh;
+    cursor:default;
+}
+img#bp{
+    position:absolute;
+    z-index:2;
+    height:500px;
+    left:60vh;
+    visibility:hidden;
+}
+img#heart{
+    position:absolute;
+    height:600px;
+    left:48vh;
+    z-index:0;
+    transform:rotateZ(-20deg)
+}

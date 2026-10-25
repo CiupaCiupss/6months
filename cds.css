@@ -1,0 +1,57 @@
+body{
+    background-image: url(1month.jpg);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+    background-color:rgb(174, 192, 207);
+}
+div#back{
+    a{
+    font-size:60px;
+    font-family:Impact;
+    color:white;
+    text-decoration:wavy;
+    width:fit-content;
+    display:block;
+    }
+    a:hover{
+        color:rgb(219, 218, 218);
+    }
+}
+.albume {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.albume th,
+.albume td {
+    border: none;
+    padding: 10px;
+    vertical-align: top;
+    text-align:center;
+    margin-bottom:20px;
+    font-size:30px;
+    color:white;
+    -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+    font-family:impact;
+}
+.album-cover {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin: 0 auto 25px;
+}
+
+.albume audio {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.albume p {
+    margin-bottom: 20px;
+}
