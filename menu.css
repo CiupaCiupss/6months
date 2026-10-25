@@ -236,6 +236,7 @@ h1#months6{
     left:35vh;
     bottom:-125vh;
     cursor:default;
+    overflow-wrap:break-word;
 }
 img#bp{
     position:absolute;
